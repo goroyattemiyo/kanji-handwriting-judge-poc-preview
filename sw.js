@@ -1,5 +1,5 @@
 /* Offline-first, local-only cache. Pin assets including Vite's content-hashed JS bundle. */
-const CACHE='kanji-poc-r20250816-v01';
+const CACHE='kanji-poc-r20250816-v02';
 self.addEventListener('install', event => {event.waitUntil((async()=>{
  const cache=await caches.open(CACHE);
  const base=new URL('./',self.registration.scope);
