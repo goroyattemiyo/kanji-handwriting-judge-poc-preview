@@ -1,0 +1,20 @@
+Kanji Handwriting Judge PoC v0.1
+
+KanjiVG stroke paths extracted from:
+  https://github.com/KanjiVG/kanjivg/releases/tag/r20250816
+  Release r20250816 (commit bd13ffb)
+  Copyright (C) Ulrich Apel and contributors
+  License Creative Commons Attribution-ShareAlike 3.0 Unported
+  https://creativecommons.org/licenses/by-sa/3.0/
+  12-character extracted dataset stored in data/kanjivg-paths.json.
+  Derived extracted geometry is licensed CC BY-SA 3.0. Original per-file blob SHA-1 provided in the JSON.
+
+Tecack @tecack/backend and @tecack/dataset, v0.0.14:
+  https://github.com/ublib/tecack
+  MIT License. Forked from KanjiCanvas by Dominik Klein and Seth Clydesdale.
+  Original KanjiCanvas: https://github.com/asdfjkl/kanjicanvas
+  License texts for Tecack and its dependencies are included in installed npm packages.
+
+This PoC is experimental. No external data transmission from the application.
+
+Full Tecack/KanjiCanvas license text: ./LICENSE-THIRD-PARTY.txt
